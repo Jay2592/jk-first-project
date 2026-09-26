@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Project scaffold: Java microservices + ETL + secure REST APIs
 
 This repository contains a starter scaffold that demonstrates:
@@ -53,3 +54,6 @@ For AWS deployment, use:
 - S3 as the object store for Iceberg tables (or MinIO for on-prem/dev)
 
 Contact: add microservice modules, CI workflows, and Terraform as needed.
+=======
+# jk-first-project
+>>>>>>> 7dcf3575b21abff237d0f90399f7b7a88ee7bd74
