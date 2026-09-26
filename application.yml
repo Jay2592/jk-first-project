@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/demo
+    username: demo
+    password: demo
+    hikari:
+      maximum-pool-size: 10
+  kafka:
+    bootstrap-servers: localhost:9092
+  rabbitmq:
+    host: localhost
+    port: 5672
+
+logging:
+  level:
+    root: INFO
+    org.springframework: INFO

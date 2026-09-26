@@ -1,0 +1,4 @@
+com\example\auth\AuthRefreshLogoutIntegrationTest.class
+com\example\auth\AuthProtectedEndpointTest.class
+com\example\auth\AuthServiceTest.class
+com\example\auth\AuthControllerIntegrationTest.class

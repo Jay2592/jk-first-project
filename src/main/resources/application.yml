@@ -1,0 +1,33 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/demo
+    username: demo
+    password: demo
+    hikari:
+      maximum-pool-size: 10
+  kafka:
+    bootstrap-servers: localhost:9092
+  rabbitmq:
+    host: localhost
+    port: 5672
+  batch:
+    initialize-schema: always
+    job:
+      enabled: false
+
+logging:
+  level:
+    root: INFO
+
+# Simple credentials for local dev (HTTP Basic)
+app:
+  security:
+    demo-user: user
+    demo-pass: password
+
+jwt:
+  secret: verySecretKeyChangeMeVerySecretKey1234
+  expiration-seconds: 3600

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.auth.AuthControllerIntegrationTest" time="18.089" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\jayal\IdeaProjects\MyFirstProject\target\test-classes;C:\Users\jayal\IdeaProjects\MyFirstProject\target\classes;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.1.6\spring-boot-starter-web-3.1.6.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-starter\3.1.6\spring-boot-starter-3.1.6.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot\3.1.6\spring-boot-3.1.6.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.1.6\spring-boot-autoconfigure-3.1.6.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.1.6\spring-boot-starter-logging-3.1.6.jar;C:\Users\jayal\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\jayal\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\jayal\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.20.0\log4j-to-slf4j-2.20.0.jar;C:\Users\jayal\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\jayal\.m2\repository\org\slf4j\jul-to-slf4j\2.0.9\jul-to-slf4j-2.0.9.jar;C:\Users\jayal\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\jayal\.m2\repository\org\yaml\snakeyaml\1.33\snakeyaml-1.33.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.1.6\spring-boot-starter-json-3.1.6.jar;C:\Users\jayal\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.3\jackson-datatype-jdk8-2.15.3.jar;C:\Users\jayal\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.3\jackson-datatype-jsr310-2.15.3.jar;C:\Users\jayal\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.3\jackson-module-parameter-names-2.15.3.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.1.6\spring-boot-starter-tomcat-3.1.6.jar;C:\Users\jayal\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.16\tomcat-embed-core-10.1.16.jar;C:\Users\jayal\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.16\tomcat-embed-el-10.1.16.jar;C:\Users\jayal\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.16\tomcat-embed-websocket-10.1.16.jar;C:\Users\jayal\.m2\repository\org\springframework\spring-web\6.0.14\spring-web-6.0.14.jar;C:\Users\jayal\.m2\repository\org\springframework\spring-webmvc\6.0.14\spring-webmvc-6.0.14.jar;C:\Users\jayal\.m2\repository\org\springframework\spring-expression\6.0.14\spring-expression-6.0.14.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-starter-actuator\3.1.6\spring-boot-starter-actuator-3.1.6.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-actuator-autoconfigure\3.1.6\spring-boot-actuator-autoconfigure-3.1.6.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-actuator\3.1.6\spring-boot-actuator-3.1.6.jar;C:\Users\jayal\.m2\repository\io\micrometer\micrometer-observation\1.11.6\micrometer-observation-1.11.6.jar;C:\Users\jayal\.m2\repository\io\micrometer\micrometer-commons\1.11.6\micrometer-commons-1.11.6.jar;C:\Users\jayal\.m2\repository\io\micrometer\micrometer-core\1.11.6\micrometer-core-1.11.6.jar;C:\Users\jayal\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar;C:\Users\jayal\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.1.6\spring-boot-starter-security-3.1.6.jar;C:\Users\jayal\.m2\repository\org\springframework\spring-aop\6.0.14\spring-aop-6.0.14.jar;C:\Users\jayal\.m2\repository\org\springframework\security\spring-security-config\6.1.5\spring-security-config-6.1.5.jar;C:\Users\jayal\.m2\repository\org\springframework\security\spring-security-web\6.1.5\spring-security-web-6.1.5.jar;C:\Users\jayal\.m2\repository\org\springframework\batch\spring-batch-core\5.0.4\spring-batch-core-5.0.4.jar;C:\Users\jayal\.m2\repository\org\springframework\batch\spring-batch-infrastructure\5.0.4\spring-batch-infrastructure-5.0.4.jar;C:\Users\jayal\.m2\repository\org\springframework\spring-beans\6.0.14\spring-beans-6.0.14.jar;C:\Users\jayal\.m2\repository\org\springframework\spring-context\6.0.14\spring-context-6.0.14.jar;C:\Users\jayal\.m2\repository\org\springframework\spring-tx\6.0.14\spring-tx-6.0.14.jar;C:\Users\jayal\.m2\repository\org\springframework\spring-jdbc\6.0.14\spring-jdbc-6.0.14.jar;C:\Users\jayal\.m2\repository\org\springframework\kafka\spring-kafka\3.0.13\spring-kafka-3.0.13.jar;C:\Users\jayal\.m2\repository\org\springframework\spring-messaging\6.0.14\spring-messaging-6.0.14.jar;C:\Users\jayal\.m2\repository\org\springframework\retry\spring-retry\2.0.4\spring-retry-2.0.4.jar;C:\Users\jayal\.m2\repository\org\apache\kafka\kafka-clients\3.4.1\kafka-clients-3.4.1.jar;C:\Users\jayal\.m2\repository\com\github\luben\zstd-jni\1.5.2-1\zstd-jni-1.5.2-1.jar;C:\Users\jayal\.m2\repository\org\lz4\lz4-java\1.8.0\lz4-java-1.8.0.jar;C:\Users\jayal\.m2\repository\org\xerial\snappy\snappy-java\1.1.8.4\snappy-java-1.1.8.4.jar;C:\Users\jayal\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\jayal\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-starter-amqp\3.1.6\spring-boot-starter-amqp-3.1.6.jar;C:\Users\jayal\.m2\repository\org\springframework\amqp\spring-rabbit\3.0.10\spring-rabbit-3.0.10.jar;C:\Users\jayal\.m2\repository\org\springframework\amqp\spring-amqp\3.0.10\spring-amqp-3.0.10.jar;C:\Users\jayal\.m2\repository\com\rabbitmq\amqp-client\5.17.1\amqp-client-5.17.1.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.1.6\spring-boot-starter-jdbc-3.1.6.jar;C:\Users\jayal\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;C:\Users\jayal\.m2\repository\org\postgresql\postgresql\42.6.0\postgresql-42.6.0.jar;C:\Users\jayal\.m2\repository\org\checkerframework\checker-qual\3.31.0\checker-qual-3.31.0.jar;C:\Users\jayal\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\jayal\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;C:\Users\jayal\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.1.6\spring-boot-starter-test-3.1.6.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-test\3.1.6\spring-boot-test-3.1.6.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.1.6\spring-boot-test-autoconfigure-3.1.6.jar;C:\Users\jayal\.m2\repository\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar;C:\Users\jayal\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.1\jakarta.xml.bind-api-4.0.1.jar;C:\Users\jayal\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.2\jakarta.activation-api-2.1.2.jar;C:\Users\jayal\.m2\repository\net\minidev\json-smart\2.4.11\json-smart-2.4.11.jar;C:\Users\jayal\.m2\repository\net\minidev\accessors-smart\2.4.11\accessors-smart-2.4.11.jar;C:\Users\jayal\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\jayal\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\jayal\.m2\repository\net\bytebuddy\byte-buddy\1.14.10\byte-buddy-1.14.10.jar;C:\Users\jayal\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\jayal\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\jayal\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\jayal\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\jayal\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\jayal\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\jayal\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\jayal\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\jayal\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\jayal\.m2\repository\org\mockito\mockito-core\5.3.1\mockito-core-5.3.1.jar;C:\Users\jayal\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.10\byte-buddy-agent-1.14.10.jar;C:\Users\jayal\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\jayal\.m2\repository\org\mockito\mockito-junit-jupiter\5.3.1\mockito-junit-jupiter-5.3.1.jar;C:\Users\jayal\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\jayal\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\jayal\.m2\repository\org\springframework\spring-core\6.0.14\spring-core-6.0.14.jar;C:\Users\jayal\.m2\repository\org\springframework\spring-jcl\6.0.14\spring-jcl-6.0.14.jar;C:\Users\jayal\.m2\repository\org\springframework\spring-test\6.0.14\spring-test-6.0.14.jar;C:\Users\jayal\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;C:\Users\jayal\.m2\repository\org\springframework\security\spring-security-test\6.1.5\spring-security-test-6.1.5.jar;C:\Users\jayal\.m2\repository\org\springframework\security\spring-security-core\6.1.5\spring-security-core-6.1.5.jar;C:\Users\jayal\.m2\repository\org\springframework\security\spring-security-crypto\6.1.5\spring-security-crypto-6.1.5.jar;C:\Users\jayal\.m2\repository\io\jsonwebtoken\jjwt-api\0.11.5\jjwt-api-0.11.5.jar;C:\Users\jayal\.m2\repository\io\jsonwebtoken\jjwt-impl\0.11.5\jjwt-impl-0.11.5.jar;C:\Users\jayal\.m2\repository\io\jsonwebtoken\jjwt-jackson\0.11.5\jjwt-jackson-0.11.5.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="catalina.useNaming" value="false"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\jayal\AppData\Local\Temp\surefire14193215585544839885\surefirebooter-20260919054104349_3.jar C:\Users\jayal\AppData\Local\Temp\surefire14193215585544839885 2026-09-19T05-41-03_931-jvmRun1 surefire-20260919054104349_1tmp surefire_0-20260919054104349_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\jayal\IdeaProjects\MyFirstProject\target\test-classes;C:\Users\jayal\IdeaProjects\MyFirstProject\target\classes;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.1.6\spring-boot-starter-web-3.1.6.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-starter\3.1.6\spring-boot-starter-3.1.6.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot\3.1.6\spring-boot-3.1.6.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.1.6\spring-boot-autoconfigure-3.1.6.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.1.6\spring-boot-starter-logging-3.1.6.jar;C:\Users\jayal\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\jayal\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\jayal\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.20.0\log4j-to-slf4j-2.20.0.jar;C:\Users\jayal\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\jayal\.m2\repository\org\slf4j\jul-to-slf4j\2.0.9\jul-to-slf4j-2.0.9.jar;C:\Users\jayal\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\jayal\.m2\repository\org\yaml\snakeyaml\1.33\snakeyaml-1.33.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.1.6\spring-boot-starter-json-3.1.6.jar;C:\Users\jayal\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.3\jackson-datatype-jdk8-2.15.3.jar;C:\Users\jayal\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.3\jackson-datatype-jsr310-2.15.3.jar;C:\Users\jayal\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.3\jackson-module-parameter-names-2.15.3.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.1.6\spring-boot-starter-tomcat-3.1.6.jar;C:\Users\jayal\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.16\tomcat-embed-core-10.1.16.jar;C:\Users\jayal\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.16\tomcat-embed-el-10.1.16.jar;C:\Users\jayal\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.16\tomcat-embed-websocket-10.1.16.jar;C:\Users\jayal\.m2\repository\org\springframework\spring-web\6.0.14\spring-web-6.0.14.jar;C:\Users\jayal\.m2\repository\org\springframework\spring-webmvc\6.0.14\spring-webmvc-6.0.14.jar;C:\Users\jayal\.m2\repository\org\springframework\spring-expression\6.0.14\spring-expression-6.0.14.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-starter-actuator\3.1.6\spring-boot-starter-actuator-3.1.6.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-actuator-autoconfigure\3.1.6\spring-boot-actuator-autoconfigure-3.1.6.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-actuator\3.1.6\spring-boot-actuator-3.1.6.jar;C:\Users\jayal\.m2\repository\io\micrometer\micrometer-observation\1.11.6\micrometer-observation-1.11.6.jar;C:\Users\jayal\.m2\repository\io\micrometer\micrometer-commons\1.11.6\micrometer-commons-1.11.6.jar;C:\Users\jayal\.m2\repository\io\micrometer\micrometer-core\1.11.6\micrometer-core-1.11.6.jar;C:\Users\jayal\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar;C:\Users\jayal\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.1.6\spring-boot-starter-security-3.1.6.jar;C:\Users\jayal\.m2\repository\org\springframework\spring-aop\6.0.14\spring-aop-6.0.14.jar;C:\Users\jayal\.m2\repository\org\springframework\security\spring-security-config\6.1.5\spring-security-config-6.1.5.jar;C:\Users\jayal\.m2\repository\org\springframework\security\spring-security-web\6.1.5\spring-security-web-6.1.5.jar;C:\Users\jayal\.m2\repository\org\springframework\batch\spring-batch-core\5.0.4\spring-batch-core-5.0.4.jar;C:\Users\jayal\.m2\repository\org\springframework\batch\spring-batch-infrastructure\5.0.4\spring-batch-infrastructure-5.0.4.jar;C:\Users\jayal\.m2\repository\org\springframework\spring-beans\6.0.14\spring-beans-6.0.14.jar;C:\Users\jayal\.m2\repository\org\springframework\spring-context\6.0.14\spring-context-6.0.14.jar;C:\Users\jayal\.m2\repository\org\springframework\spring-tx\6.0.14\spring-tx-6.0.14.jar;C:\Users\jayal\.m2\repository\org\springframework\spring-jdbc\6.0.14\spring-jdbc-6.0.14.jar;C:\Users\jayal\.m2\repository\org\springframework\kafka\spring-kafka\3.0.13\spring-kafka-3.0.13.jar;C:\Users\jayal\.m2\repository\org\springframework\spring-messaging\6.0.14\spring-messaging-6.0.14.jar;C:\Users\jayal\.m2\repository\org\springframework\retry\spring-retry\2.0.4\spring-retry-2.0.4.jar;C:\Users\jayal\.m2\repository\org\apache\kafka\kafka-clients\3.4.1\kafka-clients-3.4.1.jar;C:\Users\jayal\.m2\repository\com\github\luben\zstd-jni\1.5.2-1\zstd-jni-1.5.2-1.jar;C:\Users\jayal\.m2\repository\org\lz4\lz4-java\1.8.0\lz4-java-1.8.0.jar;C:\Users\jayal\.m2\repository\org\xerial\snappy\snappy-java\1.1.8.4\snappy-java-1.1.8.4.jar;C:\Users\jayal\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\jayal\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-starter-amqp\3.1.6\spring-boot-starter-amqp-3.1.6.jar;C:\Users\jayal\.m2\repository\org\springframework\amqp\spring-rabbit\3.0.10\spring-rabbit-3.0.10.jar;C:\Users\jayal\.m2\repository\org\springframework\amqp\spring-amqp\3.0.10\spring-amqp-3.0.10.jar;C:\Users\jayal\.m2\repository\com\rabbitmq\amqp-client\5.17.1\amqp-client-5.17.1.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.1.6\spring-boot-starter-jdbc-3.1.6.jar;C:\Users\jayal\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;C:\Users\jayal\.m2\repository\org\postgresql\postgresql\42.6.0\postgresql-42.6.0.jar;C:\Users\jayal\.m2\repository\org\checkerframework\checker-qual\3.31.0\checker-qual-3.31.0.jar;C:\Users\jayal\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\jayal\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;C:\Users\jayal\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.1.6\spring-boot-starter-test-3.1.6.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-test\3.1.6\spring-boot-test-3.1.6.jar;C:\Users\jayal\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.1.6\spring-boot-test-autoconfigure-3.1.6.jar;C:\Users\jayal\.m2\repository\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar;C:\Users\jayal\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.1\jakarta.xml.bind-api-4.0.1.jar;C:\Users\jayal\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.2\jakarta.activation-api-2.1.2.jar;C:\Users\jayal\.m2\repository\net\minidev\json-smart\2.4.11\json-smart-2.4.11.jar;C:\Users\jayal\.m2\repository\net\minidev\accessors-smart\2.4.11\accessors-smart-2.4.11.jar;C:\Users\jayal\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\jayal\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\jayal\.m2\repository\net\bytebuddy\byte-buddy\1.14.10\byte-buddy-1.14.10.jar;C:\Users\jayal\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\jayal\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\jayal\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\jayal\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\jayal\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\jayal\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\jayal\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\jayal\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\jayal\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\jayal\.m2\repository\org\mockito\mockito-core\5.3.1\mockito-core-5.3.1.jar;C:\Users\jayal\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.10\byte-buddy-agent-1.14.10.jar;C:\Users\jayal\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\jayal\.m2\repository\org\mockito\mockito-junit-jupiter\5.3.1\mockito-junit-jupiter-5.3.1.jar;C:\Users\jayal\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\jayal\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\jayal\.m2\repository\org\springframework\spring-core\6.0.14\spring-core-6.0.14.jar;C:\Users\jayal\.m2\repository\org\springframework\spring-jcl\6.0.14\spring-jcl-6.0.14.jar;C:\Users\jayal\.m2\repository\org\springframework\spring-test\6.0.14\spring-test-6.0.14.jar;C:\Users\jayal\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;C:\Users\jayal\.m2\repository\org\springframework\security\spring-security-test\6.1.5\spring-security-test-6.1.5.jar;C:\Users\jayal\.m2\repository\org\springframework\security\spring-security-core\6.1.5\spring-security-core-6.1.5.jar;C:\Users\jayal\.m2\repository\org\springframework\security\spring-security-crypto\6.1.5\spring-security-crypto-6.1.5.jar;C:\Users\jayal\.m2\repository\io\jsonwebtoken\jjwt-api\0.11.5\jjwt-api-0.11.5.jar;C:\Users\jayal\.m2\repository\io\jsonwebtoken\jjwt-impl\0.11.5\jjwt-impl-0.11.5.jar;C:\Users\jayal\.m2\repository\io\jsonwebtoken\jjwt-jackson\0.11.5\jjwt-jackson-0.11.5.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\jayal"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.4.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\jayal\IdeaProjects\MyFirstProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="FILE_LOG_CHARSET" value="windows-1252"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="surefire.real.class.path" value="C:\Users\jayal\AppData\Local\Temp\surefire14193215585544839885\surefirebooter-20260919054104349_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.4.1+1-LTS-2"/>
+    <property name="user.name" value="jayal"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\jayal\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\jayal\AppData\Local\Temp\"/>
+    <property name="catalina.home" value="C:\Users\jayal\AppData\Local\Temp\tomcat.0.3446873715044595670"/>
+    <property name="java.version" value="17.0.4.1"/>
+    <property name="user.dir" value="C:\Users\jayal\IdeaProjects\MyFirstProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PID" value="1256"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="CONSOLE_LOG_CHARSET" value="windows-1252"/>
+    <property name="catalina.base" value="C:\Users\jayal\AppData\Local\Temp\tomcat.0.3446873715044595670"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-17.0.4.1\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\jayal\AppData\Local\Microsoft\WindowsApps;C:\Users\jayal\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.4.1+1-LTS-2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="loginEndpointReturnsToken" classname="com.example.auth.AuthControllerIntegrationTest" time="4.101">
+    <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.6)
+
+2026-09-19T05:41:06.731-05:00  INFO 1256 --- [           main] c.e.auth.AuthControllerIntegrationTest   : Starting AuthControllerIntegrationTest using Java 17.0.4.1 with PID 1256 (started by jayal in C:\Users\jayal\IdeaProjects\MyFirstProject)
+2026-09-19T05:41:06.734-05:00  INFO 1256 --- [           main] c.e.auth.AuthControllerIntegrationTest   : No active profile set, falling back to 1 default profile: "default"
+2026-09-19T05:41:12.031-05:00  INFO 1256 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2026-09-19T05:41:12.063-05:00  INFO 1256 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-19T05:41:12.066-05:00  INFO 1256 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-09-19T05:41:12.436-05:00  INFO 1256 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-09-19T05:41:12.438-05:00  INFO 1256 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5678 ms
+2026-09-19T05:41:13.163-05:00  WARN 1256 --- [           main] o.s.security.core.userdetails.User       : User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2026-09-19T05:41:16.561-05:00  INFO 1256 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-09-19T05:41:16.693-05:00  INFO 1256 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1218e12, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29c25bbc, org.springframework.security.web.context.SecurityContextHolderFilter@dc8b2ff, org.springframework.security.web.header.HeaderWriterFilter@3a8fb023, org.springframework.security.web.authentication.logout.LogoutFilter@3a54638b, com.example.security.JwtAuthenticationFilter@154b8cb6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@14201a90, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@780ee3ad, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@30704f85, org.springframework.security.web.session.SessionManagementFilter@7c9372ed, org.springframework.security.web.access.ExceptionTranslationFilter@7d126083, org.springframework.security.web.access.intercept.AuthorizationFilter@553fbe94]
+2026-09-19T05:41:18.581-05:00  INFO 1256 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 63565 (http) with context path ''
+2026-09-19T05:41:18.764-05:00  INFO 1256 --- [           main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-sample-group-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = sample-group
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2026-09-19T05:41:19.216-05:00  INFO 1256 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.4.1
+2026-09-19T05:41:19.221-05:00  INFO 1256 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 8a516edc2755df89
+2026-09-19T05:41:19.221-05:00  INFO 1256 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1789814479210
+2026-09-19T05:41:19.317-05:00  INFO 1256 --- [           main] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-sample-group-1, groupId=sample-group] Subscribed to topic(s): sample-topic
+2026-09-19T05:41:19.368-05:00  INFO 1256 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-09-19T05:41:19.410-05:00  INFO 1256 --- [           main] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: no further information
+2026-09-19T05:41:19.457-05:00  INFO 1256 --- [ntContainer#0-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-09-19T05:41:19.511-05:00  INFO 1256 --- [           main] c.e.auth.AuthControllerIntegrationTest   : Started AuthControllerIntegrationTest in 13.313 seconds (process running for 14.808)
+2026-09-19T05:41:20.337-05:00  INFO 1256 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-sample-group-1, groupId=sample-group] Node -1 disconnected.
+2026-09-19T05:41:20.342-05:00  WARN 1256 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-sample-group-1, groupId=sample-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2026-09-19T05:41:20.343-05:00  WARN 1256 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-sample-group-1, groupId=sample-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2026-09-19T05:41:20.440-05:00  INFO 1256 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-sample-group-1, groupId=sample-group] Node -1 disconnected.
+2026-09-19T05:41:20.441-05:00  WARN 1256 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-sample-group-1, groupId=sample-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2026-09-19T05:41:20.442-05:00  WARN 1256 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-sample-group-1, groupId=sample-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2026-09-19T05:41:20.551-05:00  INFO 1256 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-sample-group-1, groupId=sample-group] Node -1 disconnected.
+2026-09-19T05:41:20.553-05:00  WARN 1256 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-sample-group-1, groupId=sample-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2026-09-19T05:41:20.554-05:00  WARN 1256 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-sample-group-1, groupId=sample-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2026-09-19T05:41:20.788-05:00  INFO 1256 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-sample-group-1, groupId=sample-group] Node -1 disconnected.
+2026-09-19T05:41:20.789-05:00  WARN 1256 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-sample-group-1, groupId=sample-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2026-09-19T05:41:20.789-05:00  WARN 1256 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-sample-group-1, groupId=sample-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2026-09-19T05:41:21.155-05:00  INFO 1256 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-sample-group-1, groupId=sample-group] Node -1 disconnected.
+2026-09-19T05:41:21.156-05:00  WARN 1256 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-sample-group-1, groupId=sample-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2026-09-19T05:41:21.157-05:00  WARN 1256 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-sample-group-1, groupId=sample-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2026-09-19T05:41:22.083-05:00  INFO 1256 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-sample-group-1, groupId=sample-group] Node -1 disconnected.
+2026-09-19T05:41:22.084-05:00  WARN 1256 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-sample-group-1, groupId=sample-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2026-09-19T05:41:22.085-05:00  WARN 1256 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-sample-group-1, groupId=sample-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2026-09-19T05:41:22.717-05:00  INFO 1256 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-19T05:41:22.719-05:00  INFO 1256 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-19T05:41:22.726-05:00  INFO 1256 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2026-09-19T05:41:22.814-05:00  WARN 1256 --- [o-auto-1-exec-1] o.s.w.s.h.HandlerMappingIntrospector     : Cache miss for REQUEST dispatch to '/api/login' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2026-09-19T05:41:23.012-05:00  INFO 1256 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-sample-group-1, groupId=sample-group] Node -1 disconnected.
+2026-09-19T05:41:23.013-05:00  WARN 1256 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-sample-group-1, groupId=sample-group] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2026-09-19T05:41:23.013-05:00  WARN 1256 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-sample-group-1, groupId=sample-group] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+]]></system-out>
+  </testcase>
+</testsuite>
